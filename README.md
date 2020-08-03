@@ -16,3 +16,17 @@ The scraper class can be imported as follows...
 ``` python
 from Scrape import Scraper
 ```
+
+Then the Scraper class takes a single variable, SKU (Stock Keeping Unit)
+
+``` python
+item = Scraper("400922563483")
+```
+
+To extract infomration from the web page, call the extract function
+
+``` python
+item.extract()
+```
+
+The returned results are a JSON full of useful information!
