@@ -13,4 +13,6 @@ All you need to do is download the files and meet the prerequisities below!
 ### 3) Usage
 The scraper class can be imported as follows...
 
-<from Scrape import Scraper>
+``` python
+from Scrape import Scraper
+```
